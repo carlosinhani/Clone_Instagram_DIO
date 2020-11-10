@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.8.8",
+    "@react-navigation/stack": "^5.12.5",
     "global": "^4.4.0",
     "json-server": "^0.16.2",
     "react": "16.13.1",
