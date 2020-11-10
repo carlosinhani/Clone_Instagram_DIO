@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Hello oioi</Text>
+      <Text style={styles.title}>Hello Agora Vai</Text>
     </View>
   );
 }
