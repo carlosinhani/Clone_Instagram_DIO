@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Animated} from 'react-native';
 import {Small, Original} from './styles';
-
+import PropTypes from 'prop-types';
 
 const AnimatedOriginal = Animated.createAnimatedComponent(Original)
 
@@ -50,3 +50,16 @@ export default function FeedImage({
     </Small>
   );
 }
+
+FeedImage.prototype = {
+   smallSource: PropTypes.string.isRequired,
+   source: PropTypes.string.isRequired,
+   shouldLoad: PropTypes.bool,
+   aspectRatio: PropTypes.number,
+};
+
+FeedImage.prototype = {
+  shouldLoad: false,
+  aspectRatio: 1,
+};
+
